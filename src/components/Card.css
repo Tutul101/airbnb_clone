@@ -1,0 +1,33 @@
+.card {
+  border: 0px solid black;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: transform 100ms ease-in;
+}
+.card:hover {
+  transform: scale(1.08);
+}
+.card__image {
+  min-width: 300px;
+  min-height: 100px !important;
+  object-fit: fill;
+  width: 100%;
+}
+.card__info {
+  padding: 20px;
+}
+.card__info h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.card__info h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .card__image {
+    width: 100%;
+  }
+}

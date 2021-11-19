@@ -1,0 +1,58 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url("https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260")
+    center center;
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner_searchButton {
+  background-color: white !important;
+  color: #ff7779 !important;
+  justify-self: center !important;
+  display: block !important;
+  margin: 0 auto !important;
+  text-transform: inherit !important;
+}
+.banner__info {
+  background-color: black;
+  color: white;
+  margin-top: -36px;
+  padding-top: 16.2vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+.banner__info h5 {
+  margin-top: 10px;
+}
+.banner__button {
+  background-color: #ff7779 !important ;
+  color: white !important;
+  text-transform: inherit !important;
+  margin-top: 20px !important;
+  font-weight: 600 !important;
+}
+.banner__button:hover {
+  background-color: white !important;
+  color: #ff7779 !important;
+}
+@media only screen and (max-width: 600px) {
+  .banner__info {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+  }
+  .banner__info h1 {
+    font-size: 25px;
+  }
+  .banner__info h5 {
+    font-size: 13px;
+  }
+}
